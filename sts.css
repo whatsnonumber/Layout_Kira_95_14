@@ -1,0 +1,289 @@
+@font-face {
+    font-family: 'Angelic';
+    src: url('Angelic Serif.ttf');
+}
+@font-face {
+    font-family: 'Soopa';
+    src: url('soopafre.ttf');
+}
+.body{
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+.banner img {
+    width: 1280px;
+    height:350px;
+    object-fit: cover;
+    display: block;
+}
+div.leaf{
+    position: absolute;
+    top: -50px;
+    font-size: 14px;
+    color:aliceblue;
+    opacity: 0.8;
+    animation: fall linear infinite;
+    z-index: 10000;
+}
+      @keyframes fall {
+            0% {
+                transform: translateY(0) rotate(0deg); 
+                opacity: 1;
+            }
+             100% {
+                transform: translateY(200vh) rotate(360deg); 
+                opacity: 0;
+            }
+        }
+
+body{
+    background-image: url(woa.gif);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+h1{
+    background: linear-gradient(to bottom, rgb(189, 204, 209),rgb(70, 142, 190));
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'soopa';
+    -webkit-text-stroke: 2px rgb(50, 91, 124);
+}
+
+div.isi{
+    margin: 30px auto;
+    width: 70%;
+   background: linear-gradient(to bottom, rgb(248, 171, 143),rgb(242, 255, 235));
+    color:rgb(83, 42, 30); 
+    padding: 30px;
+    border-radius: 12px;
+    font-family: 'Angelic';
+    font-size: medium;
+    text-align: justify; 
+    text-indent: 40px;
+    transition: 0.3s ease-in-out;
+}
+div.isi:hover{
+    overflow: hidden;
+    transition: transform 0.3 ease;
+    transform: scale(1.1);
+}
+
+.autoshow {
+    animation: text-appear both;
+    animation-timeline: view();
+    animation-range: entry 20% cover 100vh;
+}
+@keyframes text-appear{
+from{
+    opacity: 0;
+    transform: translateY(100px);
+}
+to{
+    opacity: 1;
+    transform: translateY(0)
+}
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.card{
+    width: 325px;
+    background-color: #fee6e6;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgb(83, 42, 30);
+    margin: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+}
+.card-content{
+    padding: 16px;
+}
+.card-content h3{
+    font-size: 28px;
+    margin-bottom: 8px;
+    color:rgb(143, 67, 50);
+    font-family: 'Soopa';
+}
+.card-content p{
+    font-family: 'Angelic';
+    font-size: medium;
+    text-align: justify; 
+    color:rgb(214, 124, 95);
+    text-indent: 40px;
+    line-height: 1.3;
+}
+div.card:hover{
+    overflow: hidden;
+    transition: transform 0.3 ease;
+    transform: scale(1.1);
+}
+.slideshow-container {
+  box-sizing:border-box;
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+div.biodata{
+    margin: 30px auto;
+    width: 70%;
+   background: linear-gradient(to bottom, rgb(239, 213, 204),rgb(255, 188, 141));
+    color:black; 
+    padding: 30px;
+    border-radius: 12px;
+    font-family: 'Angelic';
+    font-size: medium;
+        transition: transform 0.5s ease, opacity 0.5s ease;
+}
+div.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+div.isi2{
+    margin: 30px auto;
+    width: 70%;
+   background: linear-gradient(to bottom, rgb(143, 210, 248),rgb(242, 255, 235));
+    color:rgb(18, 60, 86); 
+    padding: 30px;
+    border-radius: 12px;
+    font-family: 'Angelic';
+    font-size: medium;
+    transition: 0.3s ease-in-out;
+}
+
+div.isi2:hover{
+    overflow: hidden;
+    transition: transform 0.3 ease;
+    transform: scale(1.1);
+}
+div.foto{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid white; 
+    
+}
+
+div.foto img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.foto img.top{
+    opacity: 1;
+    z-index: 2; 
+}
+
+.foto:hover img.top{
+    opacity: 0;
+    transform: scale(1.1);
+}
+
+.foto img.bottom{
+    opacity: 0; 
+    z-index: 1;
+}
+
+.foto:hover img.bottom{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+div.biodata:hover{
+    overflow: hidden;
+    transition: transform 0.3 ease;
+    transform: scale(1.1);
+}
+div.gambar{
+text-align: center;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+img{
+    padding: 10px;
+}
+div.melo{
+    margin-bottom: 25px;
+    transition: 0.3s ease-in-out;
+}
+div.melo:hover{
+    overflow: hidden;
+    transition: transform 0.3 ease;
+    transform: scale(1.1);
+    transition: 2s ease;
+    transform: rotate(360deg);
+}
+img{
+    padding: 10px;
+}
+
+div.meloo{
+    margin-bottom: 25px;
+    transition: 0.3s ease-in-out;
+}
+div.meloo:hover{
+    overflow: hidden;
+    transition: transform 0.3 ease;
+    transform: scale(1.1);
+    transition: 2s ease;
+    transform: rotate(360deg);
+}
+img{
+    padding: 10px;
+}
+div.melooo{
+    margin-bottom: 25px;
+    transition: 0.3s ease-in-out;
+}
+div.melooo:hover{
+    overflow: hidden;
+    transition: transform 0.3 ease;
+    transform: scale(1.1);
+    transition: 2s ease;
+    transform: rotate(360deg);
+}
+img{
+    padding: 10px;
+}
+div.isi2{
+    margin: 30px auto;
+    width: 70%;
+   background: linear-gradient(to bottom, rgb(248, 171, 143),rgb(242, 255, 235));
+    color:rgb(83, 42, 30); 
+    padding: 30px;
+    border-radius: 12px;
+    font-family: 'Angelic';
+    font-size: medium;
+    transition: 0.3s ease-in-out;
+}
+div.isi:hover{
+    overflow: hidden;
+    transition: transform 0.3 ease;
+    transform: scale(1.1);
+}

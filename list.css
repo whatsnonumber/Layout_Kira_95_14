@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 2px;
+    text-align: center;
+}
+body{
+    background-image: url(cutie.gif);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* style pada topnav*/
+.topnav{
+    overflow: hidden;
+    background-color: aquamarine;
+}
+.topnav a{
+    float: left;
+    display: block;
+    color: rgb(8, 107, 87);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover{
+    background-color: rgb(255, 235, 154);
+    color:rgb(86, 42, 16);
+}
+.footer{
+    background-color: cornsilk;
+    padding: 10px;
+    text-align: center;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+h2 {
+    display: inline-block;
+    background: #c40606;
+    color: white;
+    padding: 10px 25px;
+    font-size: 26px;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+ol {
+    background-color: #1625cf;
+    border: 3px solid #050319;
+    padding: 15px 30px;
+    margin: 10px;
+    list-style-position: inside;
+}
+
+ol li {
+    background-color: #ffe2e2;
+    margin: 6px 0;
+    padding: 6px 12px;
+    border: 2px solid #dcc5d9;
+    text-align: justify;
+}
+
+ul {
+    background-color: #790c0c;
+    border: 3px solid#0e0109;
+    list-style-type: square;
+    list-style-position: inside;
+    padding: 15px 30px;
+    margin: 10px;
+}
+
+ul, ol {
+    margin-left: 30px;
+}
+
+ul li {
+    background-color: #d0d7ff;
+    margin: 8px 0;
+    padding: 8px 12px;
+    border: 2px solid #1a2332;
+    text-align: justify;
+}
+
+ul:last-of-type {
+    background-color:#1625cf;
+    border: 3px solid#050319;
+}
+
+ul:last-of-type li {
+    background-color:#fffdc6;
+    border: 2px solid#34231a;
+}
+
+.footer {
+    background-color:#f6e8d3;
+    text-align: center;
+    padding: 5px;
+}
+body{
+    background-image: url(hello.gif);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}

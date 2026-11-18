@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.header{
+    object-fit: cover;
+    display: block;
+}
+/* style pada topnav*/
+.topnav{
+    overflow: hidden;
+    background-color: aquamarine;
+}
+.topnav a{
+    float: left;
+    display: block;
+    color: rgb(8, 107, 87);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover{
+    background-color: rgb(255, 235, 154);
+    color:rgb(86, 42, 16);
+}
+.footer{
+    background-color: cornsilk;
+    padding: 10px;
+    text-align: center;
+}

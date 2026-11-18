@@ -1,0 +1,76 @@
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+body{
+    background-image: url(wowei.gif);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+table {
+    width: 100%;
+}
+
+th {
+    height: 30px;
+    background-color: beige;
+}
+
+td {
+    text-align: center;
+    padding: 5px;
+}
+
+tr:nth-child(even) {
+    background-color: honeydew;
+}
+
+tr:hover {
+    background-color: bisque;
+}
+
+th:hover {
+    background-color: lightblue;
+}
+
+.body{
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* style pada topnav*/
+.topnav{
+    overflow: hidden;
+    background-color: aquamarine;
+}
+.topnav a{
+    float: left;
+    display: block;
+    color: rgb(8, 107, 87);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover{
+    background-color: rgb(255, 235, 154);
+    color:rgb(86, 42, 16);
+}
+.footer{
+    background-color: cornsilk;
+    padding: 10px;
+    text-align: center;
+}
+h2{
+    background: linear-gradient(to bottom, rgb(169, 255, 244),rgb(235, 147, 195));
+    color:rgb(84, 65, 41);
+    text-align: center;
+    font-family: 'Hippocri';
+}
+@font-face {
+    font-family: 'Hippocri';
+    src: url('Hippocri.TTF');
+}
